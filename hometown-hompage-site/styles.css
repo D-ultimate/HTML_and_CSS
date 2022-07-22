@@ -1,0 +1,117 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT:
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    text-align: center;
+    background-image: url("images/hero-background.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    color:  #1D3557;
+    
+}
+
+#hero-section {
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#activities-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+}
+
+#activities-section h3 {
+    font-style: bold;
+}
+#activities-section-content {
+    display: flex;
+    justify-content: space-evenly;
+    width: 85%;
+}
+
+.activities-card {
+    width: 25%;
+    text-align: center;
+    padding: 1%;
+    background-color: linear-gradient();
+    border-radius: 10%;
+}
+
+.activities-card img {
+    height: 40%;
+    width: 50%;
+    border-radius:50%;
+}
+
+.activities-card p {
+    text-align: justify;
+}
+
+#card-1:hover {
+    background-image: url("images/heritage-background.jpeg");
+    background-size: cover;
+    color: white;
+    text-shadow: 0 0 10px black;
+    font-style: bolder;
+}
+
+#card-2:hover {
+    background-image: url("images/culture-background.jpeg");
+    background-size: cover;
+    color: white;
+    text-shadow: 0 0 10px black;
+    font-style: bolder;
+}
+
+#card-3:hover {
+    background-image: url("images/food-background.jpeg");
+    background-size: cover;
+    color: white;
+    text-shadow: 0 0 10px black;
+    font-style: bolder;
+}
+
+#guide-section{
+    display: flex;
+    justify-content: center;
+    height: 10%;
+    width: 25%;
+    margin: 10px 23% 10px auto;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 5%;
+}
+
+#guide-section img {
+    width:33%;
+    margin: 10px 20px 10px 10px;
+    border-radius: 5px;;
+}
+
+#guide-details {
+    text-align: center;
+}
+
+#guide-details h3,h4 {
+    font-style: bold;
+}
+
+#guide-section:hover {
+    background-color: #E63946;
+    color: white;
+    text-shadow: 0 0 10px black;
+    font-style: bolder;
+}
